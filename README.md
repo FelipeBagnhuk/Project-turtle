@@ -7,3 +7,4 @@ Para preparar commit: git commit -m "sua mensagem"
 Para verificar status: git status
 Para ver branches remotas: git remote -v
 Para ver histórico usar: git log --oneline
+Para criar uma nova Branche: git checkout -b feature-teste (essa última parte é o nome da Branche)
