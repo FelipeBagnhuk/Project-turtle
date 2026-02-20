@@ -7,4 +7,21 @@ Para preparar commit: git commit -m "sua mensagem"
 Para verificar status: git status
 Para ver branches remotas: git remote -v
 Para ver histórico usar: git log --oneline
+
+*****  Passo a passar para criar uma nova Branche: ******
+
 Para criar uma nova Branche: git checkout -b feature-teste (essa última parte é o nome da Branche)
+Muda a branche para o local existente: git checkout feature-teste
+Adciona as mudanças: git add . 
+Faz commit se houver mudanças: git commit -m "Primeira feature teste"
+Enviar para o github: git push origin feature-teste
+
+***** Para usar uma branche ou a outra: ******
+
+git checkout main          # Muda para main
+git add . ; git commit -m "..."  # Afeta APENAS main
+git push origin main       # Envia só main
+
+git checkout feature-teste # Muda para feature-teste  
+git add . ; git commit -m "..."  # Afeta APENAS feature-teste
+git push origin feature-teste   # Envia só feature-teste
