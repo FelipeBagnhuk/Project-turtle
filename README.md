@@ -1,0 +1,1 @@
+Para baixar os commits do repositório: git clone <url_do_repositorio>
