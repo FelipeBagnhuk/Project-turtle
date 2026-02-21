@@ -25,3 +25,7 @@ Envia só main: git push origin main
 Muda para feature-teste: git checkout feature-teste  
 Afeta APENAS feature-teste: git add . ; git commit -m "..."  
 Envia só feature-teste: git push origin feature-teste 
+
+****ATENÇÃO!!!!!!*
+
+O que nunca fazer em um projeto público: git reset --hard
