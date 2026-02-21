@@ -18,10 +18,10 @@ Enviar para o github: git push origin feature-teste
 
 ***** Para usar uma branche ou a outra: ******
 
-git checkout main          # Muda para main
-git add . ; git commit -m "..."  # Afeta APENAS main
-git push origin main       # Envia só main
+Muda para main: git checkout main          
+Afeta apenas main: git add . ; git commit -m "..."  
+Envia só main: git push origin main       
 
-git checkout feature-teste # Muda para feature-teste  
-git add . ; git commit -m "..."  # Afeta APENAS feature-teste
-git push origin feature-teste   # Envia só feature-teste
+Muda para feature-teste: git checkout feature-teste  
+Afeta APENAS feature-teste: git add . ; git commit -m "..."  
+Envia só feature-teste: git push origin feature-teste 
